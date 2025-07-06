@@ -160,6 +160,7 @@ navbar .nav-link:hover,
 #cityInput{
     width: 82% !important;
     background-color: #222238 !important;
+    color: white;
 }
 #button4{
      border: 0;

@@ -56,13 +56,12 @@ async function getWeather(city) {
 }
 
 
-document.getElementById("findBtn").addEventListener("click", function () {
-  var city = document.getElementById("cityInput").value.trim();
+function getCity() {
+   var city = document.getElementById("cityInput").value.trim();
   if (city !== "") {
     getWeather(city); 
   }
-});
-
+}
 
  getWeather('cairo'); 
 
